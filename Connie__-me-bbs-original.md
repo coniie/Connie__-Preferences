@@ -1,0 +1,66 @@
+```
+[centre][url=https://steamcommunity.com/id/_connie/][color=#2b4cc3][b] Steam [/b][/color][/url] | [url=https://anilist.co/user/Connie353/][color=#007fff][b] Anilist [/b][/color][/url] | [url=http://bit.ly/Connie__-Skins][color=#ffffff][b] Skins [/b][/color][/url] |  [url=https://osu.ppy.sh/users/124493][color=#ff4ca6][b] My Main [/b][/color][/url][/centre]
+I love you Vaxei
+
+[notice]
+[centre]Collabs[/centre]
+[centre]
+[url=https://osu.ppy.sh/users/16038855][img]https://imgur.com/qJoGna1.png[/img][/url][url=https://osu.ppy.sh/users/19705787][img]https://imgur.com/vXcUOQl.png[/img][/url][url=https://osu.ppy.sh/users/19574298][img]https://imgur.com/zBOSLLA.png[/img][/url][url=https://osu.ppy.sh/users/14735291][img]https://imgur.com/t6uSY7y.png[/img][/url][url=https://osu.ppy.sh/users/12968458][img]https://imgur.com/uTQ59jl.png[/img][/url][url=https://osu.ppy.sh/users/18741314][img]https://imgur.com/SxFecmU.png[/img][/url][/centre][centre][url=https://osu.ppy.sh/users/20206562][img]https://imgur.com/Bp6WJcS.png[/img][/url][url=https://osu.ppy.sh/users/14272534][img]https://imgur.com/THgSO5O.png[/img][/url][url=https://osu.ppy.sh/users/20134690][img]https://imgur.com/fcY7nVw.png[/img][/url][url=https://osu.ppy.sh/users/13279211][img]https://imgur.com/LdDvLwS.png[/img][/url][url=https://osu.ppy.sh/users/19294108][img]https://imgur.com/XIrAMXz.png[/img][/url][url=https://osu.ppy.sh/users/15141492][img]https://imgur.com/qT7wo5r.png[/img][/url][/centre][centre][url=https://osu.ppy.sh/users/20143656][img]https://imgur.com/7ZxnQGW.png[/img][/url][url=https://osu.ppy.sh/users/12846424][img]https://imgur.com/qUCTHxN.png[/img][/url][url=https://osu.ppy.sh/users/18921213][img]https://imgur.com/bA29M2i.png[/img][/url][url=https://osu.ppy.sh/users/19709166][img]https://imgur.com/DG3n2GV.png[/img][/url]
+[/centre]
+[centre][size=50][color=#2A2226].[/color][/size][/centre]
+[centre]
+[url=https://osu.ppy.sh/users/14007415][img]https://i.imgur.com/kxqfTJM.jpg[/img][/url]
+[url=https://osu.ppy.sh/users/12968458][img]https://i.imgur.com/Vu4eOt5.jpg[/img][/url]
+[url=https://www.pixiv.net/en/users/4176064][color=#ffffff][b] Artist [/b][/color][/url] | [url=https://www.pixiv.net/en/artworks/76476596][color=#ffffff][b] Original [/b][/color][/url]
+[/centre]
+[centre]Other Collabs[/centre]
+[box=collab1]*there's nothing here :O[/box]
+[/notice]
+
+[centre][size=50][color=#2A2226].[/color][/size][/centre]
+
+[notice][centre]me! profile made by Connie__ | BBS Code HERE[/centre][/notice]
+
+[notice]
+[centre]Skins[/centre]
+[box=- Constance 4.26.21][url=https://constance.s-ul.eu/fJsBIQ2c][b]DOWNLOAD[/b] - Constance 4.26.21 [/url]
+[box=][img]https://i.imgur.com/x9hYnGr.jpg[/img][/box][/box]
+
+[box=Connor's Edit 2][url=https://constance.s-ul.eu/CT1ANPdk][b]DOWNLOAD[/b] Connor's Edit 2 [/url]
+[box=][img]https://i.imgur.com/qJCxA5w.jpg[/img][/box][/box]
+[/notice]
+
+[notice][box=Game Preferences]
+[b]Skins[/b]  : [url]http://bit.ly/Connie__-Skins[/url] 
+[b]Area[/b]   : [url]http://bit.ly/Connie__-TabletArea[/url]
+
+[b]Playstyle[/b]    - Ring and Pointer
+[b]Keys[/b]         - Z and C
+
+[b]Tap style[/b]    - Trying for Cookiezi thumb on pointer tap style / middle finger over pointer tap
+
+[b]Death Stream[/b] - 185 BPM
+[b]Burst[/b]        - 250 BPM
+
+[b]Screen Resolution[/b]: 1920 x 1200 (16:10)
+[b]Ingame Resolution[/b]: 1920 x 1080 (16:9) -letterbox-
+[/box]
+
+[box=Peripherals]
+[b]Tablet[/b] : Wacom CTH-490
+[b]Switch[/b] : Cherry MX Speed Silver
+[b]Monitor[/b] : Dell U2410f (50-60Hz.)
+
+[b]CPU:[/b] [url=https://pcpartpicker.com/product/sxDzK8/intel-core-i7-8700k-37ghz-6-core-processor-bx80684i78700k]Intel Core i7-8700K 3.7 GHz 6-Core Processor[/url]
+[b]Motherboard:[/b] [url=https://pcpartpicker.com/product/FgyV3C/msi-meg-z390-ace-atx-lga1151-motherboard-meg-z390-ace]MSI MEG Z390 ACE ATX LGA1151 Motherboard[/url]
+[b]Memory:[/b] [url=https://pcpartpicker.com/product/ybrcCJ/gskill-tridentz-rgb-16gb-2-x-8gb-ddr4-3200-memory-f4-3200c16d-16gtzr]G.Skill Trident Z RGB 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory[/url]
+[b]Video Card:[/b] [url=https://pcpartpicker.com/product/yHbwrH/msi-radeon-rx-570-8gb-armor-video-card-radeon-rx570-armor-8g]MSI Radeon RX 570 8 GB ARMOR Video Card[/url]
+[/box]
+
+[box=Progress]
+[i]04/05/2021[/i] - First 200pp play
+[i]04/28/2021[/i] - Actually started recording progress @ 3461pp - 265 Hours
+[/box][/notice]
+
+[centre][url=http://s01.flagcounter.com/more/Dg/][img]https://s01.flagcounter.com/countxl/Dg/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_4/viewers_0/labels_0/pageviews_1/flags_0/percent_0/[/img][/url][/centre]
+```
