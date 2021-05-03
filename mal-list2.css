@@ -1,0 +1,281 @@
+                  /* @import url(https://image.myanimelist.net/ui/LmiIYTTD60nqDvoVuBkfLDi5JlmdOzNQBT70hH7yW9JFT5oQh-ojgv4PII4asyHL2FD-LZ7G-nNJPLnMEzrmrsn-8mv2LcZkXFVFsaZQN3d_6wFIr31aMOuWeji8YZFC);
+ */
+
+body
+{background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwMRoY-s1nGot-J8Xeg1zEnI);
+background-size: cover;
+background-attachment: fixed;
+color: #404040;
+font-family: "Arimo", sans-serif;
+font-size: 9pt;}
+
+a, strong, b
+{color: #404040;
+text-decoration: none;}
+
+#mal_control_strip a, #mal_control_strip strong, #mal_control_strip b
+{text-decoration: none !important;
+font-weight: normal !important;}
+
+#list_surround
+{width: 950px;
+padding: 40px;
+left: 200px;
+position: relative;
+top: 300px;
+bottom: 0;}
+
+#list_surround br, #mal_cs_pic img
+{display: none;}
+
+#list_surround table[align="center"]:first-of-type
+{position: fixed;
+display: block;
+height: 55px;
+width: 100%;
+top: 0px;
+left: 0px;
+background-color:rgba(255,76,61,0.15);
+border-bottom: 0px solid #d4d4d4;
+box-sizing: border-box;
+padding: 0 0 0 344px;
+z-index: 10;}
+
+td[class^="status_"]
+{text-align: center;
+width: auto;
+padding: 21px 25px 0 0;
+height: 75px;
+vertical-align: top;
+box-sizing: border-box;}
+
+td[class^="status_"]:first-of-type
+{padding: 21px 25px 0 50px;}
+
+td[class^="status_"] a
+{text-transform: lowercase;
+font-size: 10pt;
+letter-spacing: 0.15em;
+transition: .45s;
+text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);}
+
+td[class^="status_"] a:hover
+{color: #5bc1ff;
+letter-spacing: 0.20em;}
+
+.status_selected
+{font-weight: 900 !important;}
+
+.header_title
+{font-size: 16pt;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+text-align: center;
+font-family: "Raleway", sans-serif;
+font-weight: 900 !important;
+color: #ff4c3d;
+border-width: 1px 1px 0 1px;
+border-style: solid;
+border-color: #d4d4d4;
+padding-top: 4px;
+padding-bottom: 2px;
+background-color:rgba(240,240,240,0.9);
+text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);}
+
+.category_totals
+{display: block;
+border-width: 0 1px 1px 1px;
+border-style: solid;
+border-color: #d4d4d4;
+margin-bottom: 55px;
+text-transform: uppercase;
+font-size: 6pt;
+letter-spacing: 0.2em;
+text-align: center;
+padding: 4px 0;
+background-color:rgba(240,240,240,0.9);
+text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);}
+
+#grand_totals
+{font-size: 11pt;
+color: #5bc1ff;
+font-weight: 100 !important;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+font-style: italic;
+border: 1px solid #d4d4d4;
+background-color:rgba(240,240,240,0.9);
+text-align: center;
+height: 25px;
+line-height: 25px;
+margin-bottom: 25px;}
+
+td[class^="td"]
+{line-height: 15pt;}
+
+td[class^="td"], .table_header
+{background-color:rgba(240,240,240,0.9);}
+
+td[class^="td"]:first-of-type, .table_header:first-of-type
+{border-left: 1px solid #d4d4d4;}
+
+td[class^="td"]:last-of-type, .table_header:last-of-type
+{border-right: 1px solid #d4d4d4;}
+
+tr:hover td[class^="td"], tr:hover td[class^="td"] a
+{color: #ff4c3d;
+transition: .75s;}
+
+a[onclick*="update"]
+{opacity: 0;
+position: absolute;
+padding-left: 2px;}
+
+tr:hover a[onclick*="update"]
+{opacity: 1;
+transition: .75s;}
+
+.table_headerLink, .table_headerLink strong, .table_header strong
+{line-height: 15pt;
+font-size: 8pt;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-weight: bold;}
+
+.animetitle
+{padding-left: 1;}
+
+tr:hover .animetitle 
+{padding-left: 5px;}
+
+#list_surround small
+{line-height: 10pt;
+font-size: 6pt;
+text-transform: uppercase;
+letter-spacing: 0.20em;}
+
+.animetitle + small
+{position: relative;
+top: -4px;}
+
+.animetitle + small:before
+{content: "[";}
+
+.animetitle + small:after
+{content: "]";}
+
+div[style="float: right;"]
+{float: left !important;
+padding: 3px 0 0 0;
+font-size: 0 !important;
+color: transparent !important;
+text-transform: uppercase;
+height: 15px;
+width: 0px !important;
+overflow: hidden !important;
+opacity: 0;
+transition: .75s;
+box-sizing: border-box;
+text-align: center;}
+
+div[style="float: right;"] small a:first-of-type
+{font-size: 7pt !important;
+color: #404040 !important;
+padding-left: 4px;}
+
+div[style="float: right;"] small a:last-of-type
+{display: none;}
+
+tr:hover div[style="float: right;"]
+{width: 34px !important;
+opacity: 1;}
+
+#mal_control_strip
+{position: fixed;
+width: 180px !important;
+top: 160px;
+left: 0px;
+z-index:100;
+background: none !important;
+border: 1px solid #d4d4d4;
+text-align: center;}
+
+#mal_control_strip *
+{font-family: "Arimo", sans-serif !important;
+text-shadow: 1px 1px 0px #FFF;
+font-size: 11pt !important;
+padding: 3px !important;
+
+text-transform: lowercase !important;
+color: #404040 !important;}
+
+#mal_control_strip a, #mal_control_strip a strong
+{color: #5bc1ff !important;
+letter-spacing: 0.1;
+transition: .5s;}
+
+#mal_control_strip a:hover, #mal_control_strip a strong:hover
+{letter-spacing: 0.2em;}
+
+#mal_control_strip td
+{display: block;
+height: auto !important;
+box-sizing: border-box;
+padding: 2 !important;
+width: 180px;
+border-style: solid;
+border-color: #fff;
+border-width: 0 1px 0 1px;
+background-color:rgba(240,240,240,0.95);}
+
+#mal_control_strip td:first-of-type
+{border-top-width: 2px;
+border-bottom-width: 2px !important;}
+
+#mal_cs_otherlinks
+{border-bottom-width: 2px !important;
+border-top-width: 2px !important;}
+
+#mal_control_strip td div
+{margin: 0 !important;}
+#mal_cs_otherlinks div:last-of-type, #mal_cs_otherlinks div:last-of-type span, #mal_cs_links div
+{font-size: 0 !important;}
+#mal_cs_otherlinks div:last-of-type a, #mal_cs_links div a
+{display: block;}
+
+#mal_cs_otherlinks div:first-of-type strong
+{font-size: 0 !important;}
+
+#mal_cs_otherlinks div:first-of-type strong a:after
+{content: "'s profile"}
+
+#mal_cs_otherlinks div:first-of-type strong a
+{text-decoration: }
+
+#mal_cs_powered, #mal_cs_pic img
+{display: none !important;}
+
+#copyright
+{font-size: 6pt;
+text-transform: uppercase;
+margin-top: 0 !important;}
+
+#copyright:before
+{display: block;
+box-sizing: content-box;
+position: fixed;
+top: 104px;
+left: 514px;
+width: 600px;
+height: 200px;
+padding: 60px 0;
+white-space: pre;
+content:"";
+font-size: 10pt;
+text-transform: lowercase;
+font-weight: 900;
+background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwEhOmcNnmkNcsuImKxM2-Eo);
+background-repeat: no-repeat;
+z-index: -1;}
+
+{background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwKbdovT1XLIC13QMdWakJY8);}
