@@ -1,5 +1,5 @@
 ```
-[centre][url=https://steamcommunity.com/id/_connie/][color=#2b4cc3][b] Steam [/b][/color][/url] | [url=https://anilist.co/user/Connie353/][color=#007fff][b] Anilist [/b][/color][/url] | [url=http://bit.ly/Connie__-Skins][color=#ffffff][b] Skins [/b][/color][/url] |  [url=https://osu.ppy.sh/users/124493][color=#ff4ca6][b] My Main [/b][/color][/url][/centre]
+[centre][url=https://steamcommunity.com/id/_connie/][color=#2b4cc3][b] Steam [/b][/color][/url] | [url=https://myanimelist.net/profile/Connie305][color=#007fff][b] MyAnimeList [/b][/color][/url] | [url=http://bit.ly/Connie__-Skins][color=#ffffff][b] Skins [/b][/color][/url][/centre]
 I love you Vaxei
 
 [notice][centre]osu!fg collab
@@ -60,5 +60,4 @@ Other Collabs[/centre]
 [/box][/notice]
 
 [centre][url=http://s01.flagcounter.com/more/Dg/][img]https://s01.flagcounter.com/countxl/Dg/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_4/viewers_0/labels_0/pageviews_1/flags_0/percent_0/[/img][/url][img]http://lemmmy.pw/osusig/sig.php?colour=pink&uname=Connie__&pp=2&flagshadow&darktriangles&onlineindicator=undefined[/img][/centre]
-
 ```
