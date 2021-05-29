@@ -1,3 +1,5 @@
+/* Connie's MAL List 1*/
+
 body
 {background-image: url(https://i.imgur.com/Tk2tDpx.png);
 background-size: cover;
@@ -57,7 +59,7 @@ transition: .45s;
 text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);}
 
 td[class^="status_"] a:hover
-{color: #5bc1ff;
+{color: #6c00d8;
 letter-spacing: 0.20em;}
 
 .status_selected
@@ -70,7 +72,7 @@ letter-spacing: 0.2em;
 text-align: center;
 font-family: "Raleway", sans-serif;
 font-weight: 900 !important;
-color: #ff4c3d;
+color: #6c00d8;
 border-width: 1px 1px 0 1px;
 border-style: solid;
 border-color: #d4d4d4;
@@ -95,7 +97,7 @@ text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);}
 
 #grand_totals
 {font-size: 11pt;
-color: #5bc1ff;
+color: #6c00d8;
 font-weight: 100 !important;
 letter-spacing: 0.1em;
 text-transform: uppercase;
@@ -207,7 +209,7 @@ text-transform: lowercase !important;
 color: #404040 !important;}
 
 #mal_control_strip a, #mal_control_strip a strong
-{color: #5bc1ff !important;
+{color: #6c00d8 !important;
 letter-spacing: 0.1;
 transition: .5s;}
 
@@ -247,7 +249,7 @@ border-top-width: 2px !important;}
 {content: "'s profile"}
 
 #mal_cs_otherlinks div:first-of-type strong a
-{text-decoration: }
+{text-decoration: strong}
 
 #mal_cs_powered, #mal_cs_pic img
 {display: none !important;}
@@ -271,6 +273,742 @@ content:"";
 font-size: 10pt;
 text-transform: lowercase;
 font-weight: 900;
-background-image: url(PUT IN BANNER IMAGE HERE);
+background-image: url(https://i.imgur.com/DOD0DzQ.png);
 background-repeat: no-repeat;
 z-index: -1;}
+
+
+
+
+/**
+ * Floating Menu
+ */
+ .list-menu-float {
+    position: fixed;
+    display: block;
+    top: 20%;
+    width: 50px;
+    border: #EBEBEB 1px solid;
+    z-index: 2
+}
+
+.list-menu-float .icon-menu {
+    position: relative;
+    background-color: #f6f6f6;
+    display: block;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+/* SVG */
+.list-menu-float .icon-menu svg.icon {
+    position: absolute;
+    fill: #323232;
+}
+.list-menu-float .icon-menu:hover svg.icon {
+    position: absolute;
+    fill: #ffffff;
+}
+
+.list-menu-float .icon-menu.profile {
+    background-size: cover;
+}
+
+.list-menu-float .icon-menu.quick-add svg.icon-quick-add {
+    left: 13px;
+    top: 12px;
+}
+
+.list-menu-float .icon-menu.anime-list svg.icon-anime-list {
+    left: 13px;
+    top: 12px;
+}
+
+.list-menu-float .icon-menu.manga-list svg.icon-manga-list {
+    left: 13px;
+    top: 12px;
+}
+
+.list-menu-float .icon-menu.history svg.icon-history {
+    left: 13px;
+    top: 12px;
+}
+
+.list-menu-float .icon-menu.export svg.icon-export {
+    left: 13px;
+    top: 12px;
+}
+
+.list-menu-float .icon-menu.login svg.icon-login {
+    left: 13px;
+    top: 12px;
+}
+
+.list-menu-float .icon-menu.logout svg.icon-logout {
+    left: 13px;
+    top: 14px;
+}
+
+.list-menu-float .icon-menu.setting svg.icon-setting {
+    left: 13px;
+    top: 13px;
+}
+
+.list-menu-float .icon-menu .text {
+    position: absolute;
+    top: 14px;
+    left: 50px;
+    width: 0;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1.4em;
+    font-family: 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out
+}
+
+.list-menu-float .icon-menu:not(.profile):hover {
+    background-color: #4065BA;
+    width: 145px;
+}
+
+.list-menu-float .icon-menu:hover .text {
+    width: 94px;
+    opacity: 1
+}
+
+/* setting */
+.list-menu-float .icon-menu.setting .text {
+    top: 0px;
+    width: 0px;
+    height: 100px;
+    opacity: 0;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out
+}
+.list-menu-float .icon-menu.setting:hover .text {
+    top: 0px;
+    width: 114px;
+    height: 100px;
+    opacity: 1
+}
+
+.list-menu-float .icon-menu.setting .text .link-list-setting,
+.list-menu-float .icon-menu.setting .text .link-style-setting {
+    display: block;
+    opacity: 0;
+}
+
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting,
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+    position: absolute;
+    background-color: #4065BA;
+    display: block;
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 1;
+}
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting {
+    top: 0px;
+}
+
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+    border-top: #EBEBEB 1px solid;
+    top: 50px;
+}
+
+
+/**
+ * List Container
+ */
+
+.list-container {
+    position: relative;
+    background-color: #ffffff;
+    border: #EBEBEB 1px solid;
+    width: 1058px;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+/**
+ * List Container - Cover Block
+ */
+.cover-block {
+    display: block;
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cover-block .image-container {
+    display: table-cell;
+    padding-top: 16px;
+    width: 1024px;
+}
+
+.cover-block .image-container.hide {
+    display: none;
+}
+
+.cover-block .image-container img {
+    max-width: 1024px;
+}
+
+/* setting icon */
+.cover-block .image-container .btn-list-setting {
+    display: none;
+}
+
+.cover-block .image-container:hover .btn-list-setting {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    padding: 8px;
+    border: rgba(255,255,255,0) 1px solid;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+.cover-block .image-container .btn-list-setting:hover {
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 8px;
+    border: #ffffff 1px solid;
+    -moz-box-shadow: 0 0 4px #000000;
+    -webkit-box-shadow: 0 0 4px #000000;
+    -o-box-shadow: 0 0 4px #000000;
+    -ms-box-shadow: 0 0 4px #000000;
+    box-shadow: 0 0 4px #000000;
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: #323232 1px 1px 1px;
+}
+
+.cover-block .image-container .btn-list-setting .fa-camera {
+    font-size: 16px;
+    -moz-text-shadow: #000000 1px 1px 3px;
+    -webkit-text-shadow: #000000 1px 1px 3px;
+    -o-text-shadow: #000000 1px 1px 3px;
+    -ms-text-shadow: #000000 1px 1px 3px;
+    text-shadow: #000000 1px 1px 3px;
+    -ms-filter:"progid:DXImageTransform.Microsoft.DropShadow(color=#000000,offx=1,offy=1)";
+}
+
+.cover-block .image-container .btn-list-setting .icon-plus-circle {
+    position: absolute;
+    top: 4px;
+    left: 18px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 50%;
+    -moz-box-shadow: -1px 1px 0px 0px #323232;
+    -webkit-box-shadow: -1px 1px 0px 0px #323232;
+    -o-box-shadow: -1px 1px 0px 0px #323232;
+    -ms-box-shadow: -1px 1px 0px 0px #323232;
+    box-shadow: -1px 1px 0px 0px #323232;
+    font-size: 10px;
+}
+
+.cover-block .image-container .btn-list-setting .text {
+  display: none;
+}
+
+.cover-block .image-container .btn-list-setting:hover .text {
+  display: inline-block;;
+  margin-left: 4px;
+}
+
+/**
+ * List Container - Status Menu
+ */
+.status-menu-container {
+    width: 1058px;
+    height: 46px;
+    background-color: #FFF;
+    border-bottom: #EBEBEB 1px solid;
+    z-index: 1
+}
+
+.status-menu-container.fixed {
+    position: fixed;
+    display: block;
+    top: 0;
+}
+
+.status-menu-container.fixed + div.list-block {
+    margin-top: 62px;
+}
+
+.status-menu-container .status-menu {
+    display: table;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 40px 0;
+}
+
+.status-menu-container .status-menu .status-button {
+    position: relative;
+    display: table-cell;
+    padding: 12px 0;
+    margin: 0;
+    font-family: 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.6em;
+    color: #9B9B9B;
+}
+
+.status-menu-container .status-menu .status-button.on {
+    color: #787878;
+    font-weight: bold;
+}
+
+.status-menu-container .status-menu .status-button:after {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #4065BA;
+    display: block;
+    width: 100%;
+    height: 4px;
+    content: '';
+    opacity: 0;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+.status-menu-container .status-menu .status-button.on:after, .status-menu .status-button:hover:after {
+    opacity: 1
+}
+
+/**
+ * List Container - Status Menu - Search
+ */
+.status-menu-container .search-container {
+    position: absolute;
+    right: 18px;
+}
+.status-menu-container .search-container #search-button {
+    display: inline-block;
+    height: 22px;
+    margin-top: 15px;
+    color: #787878;
+    font-size: 1.6em;
+    vertical-align: middle;
+}
+
+.status-menu-container .search-container #search-box {
+    display: inline-block;
+    width: 0;
+    height: 22px;
+    overflow: hidden;
+    margin-top: 13px;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    transition: width 0.3s;
+    -webkit-backface-visibility: hidden;
+    vertical-align: middle;
+}
+
+.status-menu-container .search-container #search-box.open {
+    display: inline-block;
+    width: 100px;
+}
+
+.status-menu-container .search-container #search-box input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/**
+ * List Container - List Block
+ */
+.list-block {
+    margin-top: 16px;
+    min-height: 600px;
+    padding: 0
+}
+
+.list-unit {
+    display: block;
+    margin: 0 auto;
+    width: 1024px
+}
+
+/**
+ * List Container - List Status Title (with Stats)
+ */
+.list-unit .list-status-title {
+    position: relative;
+    display: table;
+    background-color: #4065BA;
+    width: 1024px;
+    height: 38px
+}
+
+.list-unit .list-status-title .text {
+    display: table-cell;
+    width: 1024px;
+    height: 38px;
+    font-size: 2.0em;
+    color: #FFF;
+    font-weight: bold;
+    font-family: 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    text-align: center;
+    vertical-align: middle
+}
+
+.list-unit .list-status-title .stats {
+    position: absolute;
+    height: 38px;
+    line-height: 38px;
+    right: 4px;
+}
+
+.list-unit .list-status-title .stats a {
+    margin-right: 8px;
+    color: #FFF;
+}
+
+.list-unit .list-status-title .stats a.filterd {
+    text-shadow: 0px 0px 2px #FFF;
+}
+
+.list-unit .list-stats {
+    display: none;
+    background-color: #4065BA;
+    width: 1024px;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    text-align: center;
+}
+
+
+/**
+ * List Container - List Table
+ */
+
+.list-table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: #EBEBEB 1px solid;
+}
+
+.list-table > tbody:nth-of-type(2n+1) {
+    background-color: #fcfcfc;
+}
+
+
+/**
+ * List Container - List Table - Header
+ */
+
+.list-table .list-table-header .header-title {
+    background: #F6F6F6 url("/img/pc/ownlist/bar-table-header.png") no-repeat right 7px / 1px 22px;
+    display: table-cell;
+    border-bottom: #EBEBEB 1px solid;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.list-table .list-table-header .header-title:last-child {
+    background-image: none;
+}
+
+.list-table .list-table-header .header-title.status {
+    background-image: none;
+    width: 4px
+}
+
+.list-table .list-table-header .header-title.number {
+    width: 30px
+}
+
+.list-table .list-table-header .header-title.image {
+    width: 66px
+}
+
+.list-table .list-table-header .header-title.title {
+    padding-left: 8px;
+    text-align: left
+}
+
+.list-table .list-table-header .header-title.score {
+    width: 65px
+}
+
+.list-table .list-table-header .header-title.type {
+    width: 60px
+}
+
+.list-table .list-table-header .header-title.progress {
+    width: 90px
+}
+
+.list-table .list-table-header .header-title.chapters {
+    width: 90px
+}
+
+.list-table .list-table-header .header-title.volumes {
+    width: 90px
+}
+
+.list-table .list-table-header .header-title.tags {
+    width: 120px
+}
+
+.list-table .list-table-header .header-title.rated {
+    width: 70px
+}
+
+.list-table .list-table-header .header-title.started {
+    width: 110px
+}
+
+.list-table .list-table-header .header-title.finished {
+    width: 110px
+}
+
+.list-table .list-table-header .header-title.days {
+    width: 45px
+}
+
+.list-table .list-table-header .header-title.storage {
+    width: 75px
+}
+
+.list-table .list-table-header .header-title.retail {
+    width: 65px;
+}
+
+.list-table .list-table-header .header-title.priority {
+    width: 70px
+}
+
+.list-table .list-table-header .header-title .link {
+    font-size: 11px;
+    color: #323232;
+    text-decoration: none
+}
+
+.list-table .list-table-header .header-title .link.sort {
+    position: relative;
+    display: inline-block;
+    color: #323232;
+    white-space: nowrap;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out
+}
+
+.list-table .list-table-header .header-title .link.sort:hover {
+    color: #2556c6
+}
+
+.list-table .list-table-header .header-title .sort-icon {
+    color: #1d439b;
+}
+
+
+/**
+ * List Container - List Table - Items
+ */
+
+.list-table .list-table-data .data {
+    display: table-cell;
+    padding: 4px 0;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: #EBEBEB 1px solid
+}
+
+.list-table .list-table-data a:not(.edit-disabled):hover {
+    text-decoration: underline;
+}
+
+.list-table .list-table-data a.edit-disabled {
+    cursor: text;
+    color: black;
+}
+
+.list-table .list-table-data .tags .edit {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #2db039;
+    font-size: 10px;
+    font-family: 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+.list-table .list-table-data .tags .edit:hover {
+    color: green !important;
+}
+
+.list-table .list-table-data .tags textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+}
+
+.list-table .list-table-data .data.image a {
+    display: inline-block;
+}
+.list-table .list-table-data .data.image .image {
+    width: 48px;
+    height: 68px;
+    border: #EBEBEB 1px solid
+}
+
+.list-table .list-table-data .data.title {
+    padding-left: 8px;
+    text-align: left;
+    word-wrap: break-word
+}
+
+.list-table .list-table-data .data.title .link {
+    font-size: 1.1em;
+    font-weight: bold
+}
+
+.list-table .list-table-data .data.title .rewatching, .list-table .list-table-data .data.title .rereading, .list-table .list-table-data .data.title .content-status {
+    color: #BABABA;
+    font-size: 0.9em
+}
+
+.list-table .list-table-data .data.score .link {
+    font-size: 1.1em;
+    font-weight: bold
+}
+
+.list-table .list-table-data .data.title .add-edit-more {
+    float: right;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+.list-table .list-table-data .data.title .more {
+    position: relative;
+}
+
+.list-table .more-info {
+    display: none;
+    border-bottom: #EBEBEB 1px solid;
+}
+
+.list-table .more-info .more-content {
+    padding: 10px;
+}
+
+.list-table .list-table-data .data.tags {
+    word-wrap: break-word
+}
+
+.list-table .list-table-data .data.status {
+    width: 4px
+}
+
+.list-table .list-table-data .data.status .text {
+    display: none
+}
+
+.list-table .list-table-data .data.status.reading, .list-table .list-table-data .data.status.watching {
+    background-color: #2db039
+}
+
+.list-table .list-table-data .data.status.plantoread, .list-table .list-table-data .data.status.plantowatch {
+    background-color: #c3c3c3
+}
+
+.list-table .list-table-data .data.status.completed {
+    background-color: #26448f
+}
+
+.list-table .list-table-data .data.status.onhold {
+    background-color: #f1c83e
+}
+
+.list-table .list-table-data .data.status.dropped {
+    background-color: #a12f31
+}
+
+.list-table .list-table-data .data.title {
+    padding-left: 8px;
+    text-align: left
+}
+
+.list-unit .loading-space {
+    margin: 8px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+}
